@@ -33,11 +33,10 @@ cvkajh28
 
 ### Compiling
 
- 1. Since this is Rust application you'll need to go to https://www.rust-lang.org
-    and install it.
+Since this is Rust application you'll need to go to https://www.rust-lang.org and install it. Then clone the repo and open it in terminal. Run:
 
- 1. Checkout the repo and open it in terminal.
-
- 1. ```$ cargo build --release```
+ ```
+ $ cargo build --release
+ ```
 
 You'll find the `pgrs` binary in `./target/release`
