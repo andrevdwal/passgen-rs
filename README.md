@@ -38,6 +38,6 @@ cvkajh28
 
  1. Checkout the repo and open it in terminal.
 
- 1. `$ cargo build --release`
+ 1. ```$ cargo build --release```
 
 You'll find the `pgrs` binary in `./target/release`
