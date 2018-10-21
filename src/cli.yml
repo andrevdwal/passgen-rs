@@ -1,0 +1,26 @@
+name: Password Generator RS
+version: "0.1.0"
+author: Andre van der Wal
+about: CLI password generator
+args:
+    - length:
+        short: l
+        long: length
+        value_name: LENGTH
+        help: length of the passwords to generate
+        takes_value: true
+        required: false
+    - count:
+        short: c
+        long: count
+        value_name: COUNT
+        help: count of passwords to generate
+        takes_value: true
+        required: false
+    - alphabet:
+        short: a
+        long: alphabet
+        value_name: ALPHABET
+        help: alphabets to use (d=default, l=lower, u=upper, s=special, n=numbers)
+        takes_value: true
+        required: false
