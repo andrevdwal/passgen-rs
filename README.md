@@ -16,13 +16,13 @@ $ pgrs -l <LENGTH> -c <COUNT> -a <ALPHABET>
   - `s`=special characters
   - `n`=numbers
 
-Since all the options are optional generating a single password is as easy as:
+Since all the options are optional generating a single password is as easy as  <sup>1</sup>:
 ```
 $ pgrs
 0dKQf0XGXKIqTafu4$kc
 ```
 
-A more involved example using all the options:
+A more involved example using all the options <sup>1</sup>:
 ```
 $ pgrs pgrs -l 8 -c 4 -a ln
 7vgqzoyt
@@ -39,4 +39,8 @@ Since this is Rust application you'll need to go to https://www.rust-lang.org an
  $ cargo build --release
  ```
 
-You'll find the `pgrs` binary in `./target/release`
+You'll find the `pgrs` binary in `./target/release`.
+
+**Notes**  
+<sup>1</sup> *It should go without saying - but just in case - do not use any of
+the passwords in this document. They are samples and obviously compromised.*
